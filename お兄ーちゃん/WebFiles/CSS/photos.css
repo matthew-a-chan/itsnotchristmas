@@ -1,0 +1,23 @@
+#photoGallery{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    box-sizing: border-box;
+    padding: .2%;
+}
+
+#photoGallery > div{
+    display:flex;
+    flex-direction: column;
+    flex: 48%;
+    height: auto;
+}
+
+#photoGallery img{
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: .2%;
+}
+
