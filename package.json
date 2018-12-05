@@ -1,0 +1,23 @@
+{
+  "name": "itsnotchristmas",
+  "version": "1.0.0",
+  "description": "Eric's website. Also, It's not christmas. Thanks for asking.",
+  "main": "Files/ServerFiles/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Files/ServerFiles/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/platy23/itsnotchristmas.git"
+  },
+  "author": "Stephen Chan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/platy23/itsnotchristmas/issues"
+  },
+  "homepage": "https://github.com/platy23/itsnotchristmas#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
