@@ -1,5 +1,6 @@
 let express = require('express');
 let path = require('path');
+let http = require("http");
 
 const PORT = process.env.PORT || 3000
 
@@ -33,3 +34,7 @@ app.get('/', function (req, res) {
 */
 
 app.listen(PORT, () => console.log(`Listening on ${PORT}`));
+
+setInterval(function() {
+    http.get("http://itsnotchristmas.herokuapp.com");
+}, 900000); // every 5 minutes (900000)
