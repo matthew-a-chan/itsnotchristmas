@@ -19,7 +19,7 @@
 
     
     /*background: radial-gradient(rgb(240,240,240),white 70%);
-    */background: linear-gradient(-30deg, transparent 60%, white 60%),
+    */background: linear-gradient(-30deg, transparent 63%, white 63%),
     radial-gradient(circle at 50% 35%, #DDDDDD 0%, white 60%);
 }
 
@@ -37,4 +37,5 @@
 #description{
     color: #AAAAAA;
     font-size: 30pt;
+    margin-bottom: 10vh;
 }

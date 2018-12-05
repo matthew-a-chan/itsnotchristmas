@@ -33,6 +33,7 @@ body {
     float: left;
     color: black;
     text-decoration: none;
+    margin-left: 5vw;
 }
 
 #navigation{
@@ -42,16 +43,19 @@ body {
     justify-content: space-around;
     padding-left: 10%;
     padding-right: 10%;
-    width: 40%;
+    width: 35%;
     height: 100%;
 }
 
 #navigation > a {
     padding-top: 1.2%;
+
+    padding-right: 1vw;
+    padding-left: 1vw;
+
     bottom: 0px;
     display: flex;
     justify-content: space-around;
-    width: 30%;
     height: 98.8%;
     font-size: 20pt;
     font-family: Avenir;
