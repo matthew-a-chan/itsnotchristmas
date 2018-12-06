@@ -19,7 +19,6 @@
   "homepage": "https://github.com/platy23/itsnotchristmas#readme",
   "dependencies": {
     "express": "^4.16.4",
-    "http": "0.0.0",
     "path": "^0.12.7"
   }
 }

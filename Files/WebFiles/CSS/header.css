@@ -2,6 +2,11 @@
     --linkColor: rgb(90,90,90);
 }
 
+@font-face {
+    font-family: Avenir;
+    src: url('../Assets/avenir.ttf');
+}
+
 ::-webkit-scrollbar { 
     display: none; 
 }
@@ -73,12 +78,6 @@ body {
 }
 
 
-
-
-@font-face {
-    font-family: Avenir;
-    src: url('../Assets/avenir.ttf');
-}
 
 
 #title {
