@@ -35,6 +35,3 @@ app.get('/', function (req, res) {
 
 app.listen(PORT, () => console.log(`Listening on ${PORT}`));
 
-setInterval(function() {
-    http.get("http://itsnotchristmas.herokuapp.com");
-}, 900000); // every 5 minutes (900000)
