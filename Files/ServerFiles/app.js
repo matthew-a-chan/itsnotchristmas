@@ -11,14 +11,13 @@ app.use(function (req, res, next) {
     console.log(req.originalUrl);
 
 
-
-    if (req.originalUrl.endsWith('.html')) {
-        res.sendfile(path.join(__dirname, '..', 'WebFiles', 'HTML', '404.html'));
-        //res.sendFile(path.join(__dirname,'..','WebFiles','HTML',req.originalUrl));
+    if (req.originalUrl === '/' || req.originalUrl === '/main.html') {
+        //res.sendfile(path.join(__dirname, '..', 'WebFiles', 'HTML', '404.html'));
+        res.sendFile(path.join(__dirname,'..','WebFiles','HTML','about.html'));
     }
-    else if (req.originalUrl === '/') {
-        res.sendfile(path.join(__dirname, '..', 'WebFiles', 'HTML', '404.html'));
-        //res.sendFile(path.join(__dirname,'..','WebFiles','HTML','main.html'));
+    else if (req.originalUrl.endsWith('.html')) {
+        //res.sendfile(path.join(__dirname, '..', 'WebFiles', 'HTML', '404.html'));
+        res.sendFile(path.join(__dirname,'..','WebFiles','HTML',req.originalUrl));
     }
     else {
         res.sendFile(path.join(__dirname, '..', 'WebFiles', req.originalUrl));
